@@ -9,6 +9,9 @@ import { LocaisService } from './services/locais/locais.service';
 import { ViloesService } from './services/viloes/viloes.service';
 import { EnvelopeComponent } from './componentes/envelope/envelope.component';
 import { EnvelopeService } from './services/envelope/envelope.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { EnvelopeService } from './services/envelope/envelope.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatGridListModule,
+    MatButtonModule,
   ],
   providers: [
     LocaisService,
