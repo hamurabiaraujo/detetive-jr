@@ -18,4 +18,14 @@ export class LocaisComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  revelar(localId: number) {
+    this.locais = this.locais.map( local => {
+      if (local.id == localId) {
+        local.revelado = true;
+      } 
+      
+      return local;
+    }) as any;
+  }
+
 }

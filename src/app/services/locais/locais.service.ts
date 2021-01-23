@@ -19,42 +19,52 @@ export class LocaisService {
       {
         id: 1,
         nome: 'BATCAVERNA',
+        revelado: false,
       },
       {
         id: 2,
         nome: 'TOPO DO PRÉDIO',
+        revelado: false,
       },
       {
         id: 3,
         nome: 'RUA DE GOTHAM',
+        revelado: false,
       },
       {
         id: 4,
         nome: 'TÚNEL',
+        revelado: false,
       },
       {
         id: 5,
         nome: 'LETREIRO DE GOTHAM',
+        revelado: false,
       },
       {
         id: 6,
         nome: 'BAT-SINAL',
+        revelado: false,
       },
       {
         id: 7,
         nome: 'ASILO ARKHAM',
+        revelado: false,
       },
       {
         id: 8,
         nome: 'DOCA DE GOTHAM',
+        revelado: false,
       },
       {
         id: 9,
         nome: 'BANCO',
+        revelado: false,
       },
       {
         id: 10,
         nome: 'BECO',
+        revelado: false,
       },
     ]
   }

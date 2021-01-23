@@ -1,3 +1,8 @@
-<ul>
-    <li *ngFor="let local of locais">{{local.nome}}: {{local.vilao?.nome}}</li>
-</ul>
+<mat-grid-list cols="5" rowHeight="1:1">
+  <mat-grid-tile *ngFor="let local of locais">
+    <button class="botao-revelar" mat-flat-button color="warn" (click)="revelar(local.id)">{{ local.nome }}</button>
+    <div class="nome-vilao">
+      <span *ngIf="local.revelado">{{ local.vilao?.nome }}</span>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
