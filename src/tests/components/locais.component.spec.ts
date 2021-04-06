@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LocaisComponent } from './locais.component';
+import { LocaisComponent } from '../../app/componentes/locais/locais.component';
 
 describe('LocaisComponent', () => {
   let component: LocaisComponent;
